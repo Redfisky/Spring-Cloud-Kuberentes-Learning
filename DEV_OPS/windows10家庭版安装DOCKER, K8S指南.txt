@@ -1,0 +1,5 @@
+https://www.cnblogs.com/samwu/p/10360943.html
+主要安装流程👆。
+
+https://blog.csdn.net/zhuiyisinian/article/details/88700889
+如果PowerShell 敲docker --version报错，参考👆最后一段内容。

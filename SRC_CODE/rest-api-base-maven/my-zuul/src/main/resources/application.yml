@@ -1,0 +1,33 @@
+server:
+  port: 8202
+
+spring:
+  application:
+    name: my-zuul
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8100/eureka
+
+zuul:
+  routes:
+    authorization:
+      path: /my-sso-authorization/**
+      serviceId: my-sso-authorization
+    client:
+      path: /my-sso-client/**
+      serviceId: my-sso-client
+    resource:
+      path: /my-sso-resource/**
+      serviceId: my-sso-resource
+  sensitive-headers: Cookie,Set-Cookie
+#如果碰到拿到Token访问Zuul代理后的接口报Full authentication is required to access this resource的错误，需要设置此配置, 参考 https://stackoverflow.com/questions/35852766/spring-cloud-zuul-oauth-error-cors
+
+
+
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:8203/auth/user/me
+      prefer-token-info: false

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spring-Cloud-Self-Learning.iml" filepath="$PROJECT_DIR$/.idea/Spring-Cloud-Self-Learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SRC_CODE/rest-api-base-maven/my-cache/my-cache.iml" filepath="$PROJECT_DIR$/SRC_CODE/rest-api-base-maven/my-cache/my-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SRC_CODE/spring-cloud-base-maven/my-config/my-config.iml" filepath="$PROJECT_DIR$/SRC_CODE/spring-cloud-base-maven/my-config/my-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SRC_CODE/spring-cloud-base-maven/my-eureka/my-eureka.iml" filepath="$PROJECT_DIR$/SRC_CODE/spring-cloud-base-maven/my-eureka/my-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SRC_CODE/spring-cloud-base-maven/my-hystrix/my-hystrix.iml" filepath="$PROJECT_DIR$/SRC_CODE/spring-cloud-base-maven/my-hystrix/my-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SRC_CODE/rest-api-base-maven/my-sso-authorization/my-sso-authorization.iml" filepath="$PROJECT_DIR$/SRC_CODE/rest-api-base-maven/my-sso-authorization/my-sso-authorization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SRC_CODE/rest-api-base-maven/my-sso-client/my-sso-client.iml" filepath="$PROJECT_DIR$/SRC_CODE/rest-api-base-maven/my-sso-client/my-sso-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SRC_CODE/rest-api-base-maven/my-sso-resource/my-sso-resource.iml" filepath="$PROJECT_DIR$/SRC_CODE/rest-api-base-maven/my-sso-resource/my-sso-resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SRC_CODE/spring-cloud-base-maven/my-turbine/my-turbine.iml" filepath="$PROJECT_DIR$/SRC_CODE/spring-cloud-base-maven/my-turbine/my-turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SRC_CODE/spring-cloud-base-maven/my-zipkin-2/my-zipkin-2.iml" filepath="$PROJECT_DIR$/SRC_CODE/spring-cloud-base-maven/my-zipkin-2/my-zipkin-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SRC_CODE/rest-api-base-maven/my-zuul/my-zuul.iml" filepath="$PROJECT_DIR$/SRC_CODE/rest-api-base-maven/my-zuul/my-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SRC_CODE/rest-api-base-maven/rest-api-base-maven.iml" filepath="$PROJECT_DIR$/SRC_CODE/rest-api-base-maven/rest-api-base-maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SRC_CODE/spring-cloud-base-maven/spring-cloud-base-maven.iml" filepath="$PROJECT_DIR$/SRC_CODE/spring-cloud-base-maven/spring-cloud-base-maven.iml" />
+    </modules>
+  </component>
+</project>

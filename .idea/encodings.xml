@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/SRC_CODE/rest-api-base-maven" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SRC_CODE/rest-api-base-maven/my-cache" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SRC_CODE/rest-api-base-maven/my-sso-authorization" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SRC_CODE/rest-api-base-maven/my-sso-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SRC_CODE/rest-api-base-maven/my-sso-resource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SRC_CODE/rest-api-base-maven/my-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SRC_CODE/spring-cloud-base-maven" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SRC_CODE/spring-cloud-base-maven/my-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SRC_CODE/spring-cloud-base-maven/my-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SRC_CODE/spring-cloud-base-maven/my-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SRC_CODE/spring-cloud-base-maven/my-turbine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SRC_CODE/spring-cloud-base-maven/my-zipkin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SRC_CODE/spring-cloud-base-maven/my-zipkin-2" charset="UTF-8" />
+  </component>
+</project>

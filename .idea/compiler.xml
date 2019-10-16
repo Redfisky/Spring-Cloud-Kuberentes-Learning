@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="my-sso-client" />
+        <module name="my-sso-authorization" />
+        <module name="my-sso-resource" />
+        <module name="my-cache" />
+        <module name="my-zuul" />
+        <module name="my-zipkin-2" />
+        <module name="my-turbine" />
+        <module name="my-config" />
+        <module name="my-eureka" />
+        <module name="my-hystrix" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="my-cache" target="1.8" />
+      <module name="my-config" target="1.8" />
+      <module name="my-eureka" target="1.8" />
+      <module name="my-hystrix" target="1.8" />
+      <module name="my-sso-authorization" target="1.8" />
+      <module name="my-sso-client" target="1.8" />
+      <module name="my-sso-resource" target="1.8" />
+      <module name="my-turbine" target="1.8" />
+      <module name="my-zipkin" target="1.8" />
+      <module name="my-zipkin-2" target="1.8" />
+      <module name="my-zuul" target="1.8" />
+      <module name="rest-api-base-maven" target="1.8" />
+      <module name="spring-cloud-base-maven" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="my-cache" options="-parameters" />
+      <module name="my-config" options="-parameters" />
+      <module name="my-eureka" options="-parameters" />
+      <module name="my-hystrix" options="-parameters" />
+      <module name="my-sso-authorization" options="-parameters" />
+      <module name="my-sso-client" options="-parameters" />
+      <module name="my-sso-resource" options="-parameters" />
+      <module name="my-turbine" options="-parameters" />
+      <module name="my-zipkin" options="-parameters" />
+      <module name="my-zipkin-2" options="-parameters" />
+      <module name="my-zuul" options="-parameters" />
+      <module name="rest-api-base-maven" options="-parameters" />
+    </option>
+  </component>
+</project>
