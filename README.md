@@ -16,11 +16,12 @@
 ### 计划
 
 - [x] Spring Security Oauth2 JWT SSO
+- [x] Spring Data JPA 高级用法
 - [ ] 设计高并发接口/性能优化/乐观锁
 - [ ] Spring Session + Redis 会话集群
 - [ ] Mycat分库分表, UUID, 索引优化
 - [ ] 预研并行编程/WebFlux/响应式编程
-- [ ] Kubernetes集群 + 微服务高可用
+- [ ] 预研Kubernetes集群 + 微服务高可用
 - [ ] 预研Istio
 
 
@@ -59,6 +60,9 @@
 - Chrome F12
 - Postman
 
+------------
+
+
 # 已完成服务
 ##  Spring Security Oauth2 JWT SSO + Spring Cloud
 ### 关键词
@@ -89,6 +93,8 @@ Oauth2, SSO, JWT, 授权码模式，对称加密，非对称加密，Token
 ### Mysql 8 表结构
 后续还会修改，添加表或者修改字段，添加索引等
 ![表结构](./SRC_CODE/rest-api-base/DOC/spring_cloud_kubernetes_ER.png)
+
+计划是模拟一个中世纪国家，包括封建等级制度/三级会议/教会/犹太人/战争/社会经济等。
 
 
 
