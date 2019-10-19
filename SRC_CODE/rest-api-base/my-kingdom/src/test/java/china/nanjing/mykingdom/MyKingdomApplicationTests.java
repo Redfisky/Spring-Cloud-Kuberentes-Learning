@@ -84,24 +84,24 @@ public class MyKingdomApplicationTests {
         clergyRepository.deleteAll();
     }
 
-    @Test
-    public void jpaCreateTables() {
-
-        Kingdom kingdom = Kingdom.builder().build();
-        Kingdom save = kingdomRepository.save(kingdom);
-
-        Duchy duchy = Duchy.builder().kingdom(save).build();
-        Duchy save1 = duchyRepository.save(duchy);
-
-        Noble noble = Noble.builder().duchy(save1).build();
-        Noble save2 = nobleRepository.save(noble);
-
-        Clergy clergy = Clergy.builder().duchy(save1).build();
-        Clergy save3 = clergyRepository.save(clergy);
-
-        Commoner commoner = Commoner.builder().duchy(save1).build();
-        Commoner save4 = commonerRepository.save(commoner);
-    }
+//    @Test
+//    public void jpaCreateTables() {
+//
+//        Kingdom kingdom = Kingdom.builder().build();
+//        Kingdom save = kingdomRepository.save(kingdom);
+//
+//        Duchy duchy = Duchy.builder().kingdom(save).build();
+//        Duchy save1 = duchyRepository.save(duchy);
+//
+//        Noble noble = Noble.builder().duchy(save1).build();
+//        Noble save2 = nobleRepository.save(noble);
+//
+//        Clergy clergy = Clergy.builder().duchy(save1).build();
+//        Clergy save3 = clergyRepository.save(clergy);
+//
+//        Commoner commoner = Commoner.builder().duchy(save1).build();
+//        Commoner save4 = commonerRepository.save(commoner);
+//    }
 
     /**
      * 初始化一些王国 -- 公国数据
@@ -194,7 +194,7 @@ public class MyKingdomApplicationTests {
         int max = 50;
         int min = 20;
 
-        // 90个公国，每个公国10名贵族/10名教士/10名资产阶级
+        // 30个公国，每个公国10名贵族/10名教士/10名资产阶级
         int duchyId = minDuchyId;
         for (int i = 0; i < 30; i++) {
 //            int randomDuchyId = (int) (Math.random() * ((maxDychyId - minDuchyId) + 1)) + minDuchyId;
