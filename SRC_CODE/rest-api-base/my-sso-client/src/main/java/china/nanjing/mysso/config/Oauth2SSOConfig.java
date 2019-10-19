@@ -1,0 +1,20 @@
+package china.nanjing.mysso.config;
+
+import org.springframework.boot.autoconfigure.security.oauth2.client.EnableOAuth2Sso;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+
+/**
+ * @author Chen Hongyu
+ */
+@Configuration
+@EnableOAuth2Sso
+public class Oauth2SSOConfig extends WebSecurityConfigurerAdapter {
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+        http.antMatcher("/**").authorizeRequests()
+                .antMatchers("/auth/**", "/login/**","/my-sso-authorization/**","/my-sso-client/**").permitAll()
+                .anyRequest().authenticated();
+    }
+}

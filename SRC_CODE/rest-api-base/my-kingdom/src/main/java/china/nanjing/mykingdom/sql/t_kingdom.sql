@@ -1,0 +1,10 @@
+INSERT INTO `t_kingdom` VALUES (455, 20.00, 20000.00, '一个强大且繁荣的王国 -- 20', '2019-10-19 09:06:03', 2000.00, 60, 'Kingdom Of JCrVdPzxfZJH', 1000.00, 2000000.00, 3, 0);
+INSERT INTO `t_kingdom` VALUES (459, 50.00, 50000.00, '一个强大且繁荣的王国 -- 50', '2019-10-19 09:06:05', 5000.00, 150, 'Kingdom Of eDxuXOSIeOJE', 2500.00, 5000000.00, 3, 0);
+INSERT INTO `t_kingdom` VALUES (463, 32.00, 32000.00, '一个强大且繁荣的王国 -- 32', '2019-10-19 09:06:07', 3200.00, 96, 'Kingdom Of IHeyMmaSPFPz', 1600.00, 3200000.00, 3, 0);
+INSERT INTO `t_kingdom` VALUES (467, 36.00, 36000.00, '一个强大且繁荣的王国 -- 36', '2019-10-19 09:06:09', 3600.00, 108, 'Kingdom Of SxmacUecVwjb', 1800.00, 3600000.00, 3, 0);
+INSERT INTO `t_kingdom` VALUES (471, 31.00, 31000.00, '一个强大且繁荣的王国 -- 31', '2019-10-19 09:06:10', 3100.00, 93, 'Kingdom Of RjyyQQmJSGOK', 1550.00, 3100000.00, 3, 0);
+INSERT INTO `t_kingdom` VALUES (475, 44.00, 44000.00, '一个强大且繁荣的王国 -- 44', '2019-10-19 09:06:12', 4400.00, 132, 'Kingdom Of CtWZXswvDHIT', 2200.00, 4400000.00, 3, 0);
+INSERT INTO `t_kingdom` VALUES (479, 45.00, 45000.00, '一个强大且繁荣的王国 -- 45', '2019-10-19 09:06:15', 4500.00, 135, 'Kingdom Of edAyvckrKEyM', 2250.00, 4500000.00, 3, 0);
+INSERT INTO `t_kingdom` VALUES (483, 40.00, 40000.00, '一个强大且繁荣的王国 -- 40', '2019-10-19 09:06:17', 4000.00, 120, 'Kingdom Of YxVUGVRzffwZ', 2000.00, 4000000.00, 3, 0);
+INSERT INTO `t_kingdom` VALUES (487, 49.00, 49000.00, '一个强大且繁荣的王国 -- 49', '2019-10-19 09:06:19', 4900.00, 147, 'Kingdom Of smxNfpZtOIyY', 2450.00, 4900000.00, 3, 0);
+INSERT INTO `t_kingdom` VALUES (491, 44.00, 44000.00, '一个强大且繁荣的王国 -- 44', '2019-10-19 09:06:21', 4400.00, 132, 'Kingdom Of kiduAKVHKMNq', 2200.00, 4400000.00, 3, 0);

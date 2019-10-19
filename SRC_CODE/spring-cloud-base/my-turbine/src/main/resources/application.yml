@@ -1,0 +1,22 @@
+server:
+  port: 8103
+
+management:
+  server:
+    port: 8104
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+    non-secure-port: ${PORT:8103}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8100/eureka/
+
+turbine:
+  appConfig:
+  aggregator:
+    clusterConfig: default
+  clusterNameExpression: new String("default")
+
+
