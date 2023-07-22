@@ -24,7 +24,7 @@
         <dependency>
             <groupId>org.springframework.security.oauth</groupId>
             <artifactId>spring-security-oauth2</artifactId>
-            <version>2.3.3.RELEASE</version>
+            <version>2.3.5.RELEASE</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-jwt -->
         <!--版本低会报 ClassNotFound: jwt.crypto.sign.MacSigner 错误，请留意-->
